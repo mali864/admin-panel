@@ -1,14 +1,12 @@
-// import React from 'react';
 import {Link } from 'react-router-dom';
 
 
 const Sidebar = () => {
     return (
         <>
-            <div className="flex ">
-
-                <div className="bg-blue-100 text-green-600 w-[200px] h-screen py-16 text-center font-bold font-">
-                    <ul className="space-y-4">
+            
+                <div className="bg-blue-100 fixed top-[60px] pt-44 text-green-600 w-[200px] h-screen text-center font-bold">
+                    <ul className='space-y-4'>
                         <li>
                             <Link to="/home" className="text-xl font-bold hover:text-green-800">Home</Link>
                         </li>
@@ -20,7 +18,7 @@ const Sidebar = () => {
                         </li>
                     </ul>
                 </div>
-            </div>
+            
 
         </>
     )
